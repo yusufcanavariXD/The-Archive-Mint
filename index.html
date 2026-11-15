@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>THE ARCHIVE — 20 Web Puzzles</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="brand">THE ARCHIVE</div>
+    <div class="subtitle">20 UNIQUE WEB PUZZLES</div>
+  </div>
+
+  <div class="shell">
+    <div class="progress-track" id="progress-track"></div>
+    <div>
+      <div class="meta">
+        <span id="entry-label">ENTRY 01 / 20</span>
+        <span id="tier-badge" class="tier-badge">GREEN: WARMUP</span>
+      </div>
+      <h1 id="level-title">Loading...</h1>
+      <div class="desc" id="level-desc"></div>
+      <div class="puzzle-box" id="puzzle-box"></div>
+      <form class="controls" id="answer-form">
+        <input type="text" id="answer-input" placeholder="Type your answer..." autocomplete="off" />
+        <button type="submit">ENTER</button>
+      </form>
+      <div class="status" id="status-msg"></div>
+      <div class="hint-box" id="hint-box"></div>
+      <div class="actions">
+        <button type="button" class="link-btn" id="hint-btn">Need a hint?</button>
+        <button type="button" class="link-btn" id="reset-btn">Reset progress</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
